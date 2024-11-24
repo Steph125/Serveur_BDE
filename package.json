@@ -1,0 +1,35 @@
+{
+  "name": "node-bde",
+  "version": "1.0.0",
+  "description": "An awesome API REST to handle a BDE shop",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schilt-Erwan/Projet-Web.git"
+  },
+  "author": "Stephane Nguene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schilt-Erwan/Projet-Web/issues"
+  },
+  "homepage": "https://github.com/Schilt-Erwan/Projet-Web#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "serve-favicon": "^2.5.0",
+    "sqlstring": "^2.3.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
